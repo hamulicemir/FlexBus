@@ -1,0 +1,23 @@
+@startuml
+    set namespaceSeparator none
+    hide circle
+    hide empty fields
+    hide empty methods
+
+    FluxBus.app --> FluxBus.provided
+    FluxBus.entities --> FluxBus.provided
+    FluxBus.util --> FluxBus.entities
+    FluxBus.util --> FluxBus.provided
+
+    ' Package links
+    class "FluxBus.app" [[FluxBus/app/package-summary.html]] {
+    }
+    class "FluxBus.provided" [[FluxBus/provided/package-summary.html]] {
+    }
+    class "FluxBus.entities" [[FluxBus/entities/package-summary.html]] {
+    }
+    class "FluxBus.util" [[FluxBus/util/package-summary.html]] {
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

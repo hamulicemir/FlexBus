@@ -1,0 +1,48 @@
+@startuml
+    namespace FluxBus.provided {
+
+        class DateTime [[DateTime.html]] {
+            -year: int
+            -month: int
+            -day: int
+            -hour: int
+            -min: int
+            +DateTime(DateTime)
+            +DateTime(int, int, int, int, int)
+            +compareTo(DateTime): int
+            +timestamp(): long
+        }
+
+        class Bus [[Bus.html]] {
+            -licenceNumber: String
+            -capacity: int
+            +Bus(String, int)
+            +Bus(Bus)
+            +getCapactiy(): int
+        }
+
+        class Person [[Person.html]] {
+            -passportID: String
+            -firstname: String
+            -lastname: String
+            +Person(String, String, String)
+            +Person(Person)
+            +compareTo(Person): int
+        }
+
+        interface Matcher<T> [[Matcher.html]] {
+            {abstract} +match(T): boolean
+        }
+
+        java.lang.Comparable <|.. DateTime
+        java.lang.Comparable <|.. Person
+    }
+
+    namespace java.lang {
+        interface Comparable<T> {
+            {abstract} +compareTo(T): int
+        }
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

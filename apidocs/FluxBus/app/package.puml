@@ -1,0 +1,16 @@
+@startuml
+    namespace FluxBus.app {
+
+        class Main [[Main.html]] {
+            {static} ~rides: List<Busride>
+            {static} +main(String[]): void
+            {static} +export(List<Busride>, String): int
+            {static} +filter(Collection<T>, Matcher<T>): List<T>
+            {static} +print(List<Busride>): void
+            {static} +init(): List<Busride>
+        }
+
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

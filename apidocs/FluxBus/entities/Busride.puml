@@ -1,0 +1,39 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    abstract class "<size:14>Busride\n<size:10>FluxBus.entities" as FluxBus.entities.Busride [[Busride.html]] {
+        -rideID: String
+        -origin: String
+        -destination: String
+        -departure: DateTime
+        -arrival: DateTime
+        -vehicle: Bus
+        -driver: Person
+        -passengers: Set<Person>
+        +Busride(String, String, String, DateTime, DateTime)
+        +Busride(Busride)
+        -ensureNonNullNonEmpty(String): String
+        +setRide(String): void
+        +setDestination(String): void
+        +setOrigin(String): void
+        +setDeparture(DateTime): void
+        +setArrival(DateTime): void
+        +setVehicle(Bus): Busride
+        +setDriver(Person): void
+        +add(Person): boolean
+        +getRideID(): String
+        +getArrival(): DateTime
+        +getOrigin(): String
+        +compareTo(Busride): int
+    }
+
+    interface "<size:14>Comparable\n<size:10>java.lang" as java.lang.Comparable<Busride> {
+        {abstract} +compareTo(Busride): int
+    }
+
+    java.lang.Comparable <|.. FluxBus.entities.Busride
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

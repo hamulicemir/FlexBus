@@ -1,0 +1,18 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>Charter\n<size:10>FluxBus.entities" as FluxBus.entities.Charter [[Charter.html]] {
+        -includedMileage: double
+        +Charter(String, String, String, DateTime, DateTime)
+        +getIncludedMileage(): double
+        +setIncludedMileage(double): void
+    }
+
+    abstract class "<size:14>Busride\n<size:10>FluxBus.entities" as FluxBus.entities.Busride [[Busride.html]]
+
+    FluxBus.entities.Busride <|-- FluxBus.entities.Charter
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

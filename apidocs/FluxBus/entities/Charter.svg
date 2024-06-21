@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="245px" preserveAspectRatio="none" style="width:345px;height:245px;" version="1.1" viewBox="0 0 345 245" width="345px" zoomAndPan="magnify"><defs><filter height="300%" id="f10r083bp5dx1q" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[762da352a64966c8e2d55a1215e926af]
+class FluxBus.entities.Charter--><a href="Charter.html" target="_top" title="Charter.html" xlink:actuate="onRequest" xlink:href="Charter.html" xlink:show="new" xlink:title="Charter.html" xlink:type="simple"><rect codeLine="5" fill="#FEFECE" filter="url(#f10r083bp5dx1q)" height="105.1563" id="FluxBus.entities.Charter" style="stroke: #A80036; stroke-width: 1.5;" width="319" x="7" y="105"/><ellipse cx="124.25" cy="123.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M127.2188,129.6094 Q126.6406,129.9063 126,130.0469 Q125.3594,130.2031 124.6563,130.2031 Q122.1563,130.2031 120.8281,128.5625 Q119.5156,126.9063 119.5156,123.7813 Q119.5156,120.6563 120.8281,119 Q122.1563,117.3438 124.6563,117.3438 Q125.3594,117.3438 126,117.5 Q126.6563,117.6563 127.2188,117.9531 L127.2188,120.6719 Q126.5938,120.0938 126,119.8281 Q125.4063,119.5469 124.7813,119.5469 Q123.4375,119.5469 122.75,120.625 Q122.0625,121.6875 122.0625,123.7813 Q122.0625,125.875 122.75,126.9531 Q123.4375,128.0156 124.7813,128.0156 Q125.4063,128.0156 126,127.75 Q126.5938,127.4688 127.2188,126.8906 L127.2188,129.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="157.25" y="122.9951">Charter</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="76" x="144.75" y="135.5791">FluxBus.entities</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="325" y1="142.9375" y2="142.9375"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="15" y="150.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="136" x="27" y="157.1479">includedMileage: double</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="325" y1="163.7422" y2="163.7422"/><ellipse cx="18" cy="174.7422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="293" x="27" y="177.9526">Charter(String, String, String, DateTime, DateTime)</text><ellipse cx="18" cy="187.5469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="162" x="27" y="190.7573">getIncludedMileage(): double</text><ellipse cx="18" cy="200.3516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="185" x="27" y="203.562">setIncludedMileage(double): void</text></a><!--MD5=[15848a6d73be7ef01dce418ca4cefadb]
+class FluxBus.entities.Busride--><a href="Busride.html" target="_top" title="Busride.html" xlink:actuate="onRequest" xlink:href="Busride.html" xlink:show="new" xlink:title="Busride.html" xlink:type="simple"><rect codeLine="12" fill="#FEFECE" filter="url(#f10r083bp5dx1q)" height="37.9375" id="FluxBus.entities.Busride" style="stroke: #A80036; stroke-width: 1.5;" width="111" x="111" y="7"/><ellipse cx="126" cy="25.9688" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M126.1094,21.3125 L124.9531,26.3906 L127.2813,26.3906 L126.1094,21.3125 Z M124.625,19.0781 L127.6094,19.0781 L130.9688,31.4688 L128.5156,31.4688 L127.75,28.4063 L124.4688,28.4063 L123.7188,31.4688 L121.2813,31.4688 L124.625,19.0781 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="153.5" y="24.9951">Busride</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="140" y="37.5791">FluxBus.entities</text></a><!--MD5=[a5cfb28704511435c2ce2f1a06241a1b]
+reverse link FluxBus.entities.Busride to FluxBus.entities.Charter--><path codeLine="14" d="M166.5,65.16 C166.5,77.59 166.5,91.6 166.5,104.85 " fill="none" id="FluxBus.entities.Busride-backto-FluxBus.entities.Charter" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="159.5,65.01,166.5,45.01,173.5,65.01,159.5,65.01" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="192" x="67.5" y="232.4385">UMLDoclet 2.0.12, PlantUML 1.2020.16</text><!--MD5=[86ab5083bb4cfb4dc7c86ac7b6c3b7b4]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>Charter\n<size:10>FluxBus.entities" as FluxBus.entities.Charter [[Charter.html]] {
+        -includedMileage: double
+        +Charter(String, String, String, DateTime, DateTime)
+        +getIncludedMileage(): double
+        +setIncludedMileage(double): void
+    }
+
+    abstract class "<size:14>Busride\n<size:10>FluxBus.entities" as FluxBus.entities.Busride [[Busride.html]]
+
+    FluxBus.entities.Busride <|- - FluxBus.entities.Charter
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,55 @@
+@startuml
+    namespace FluxBus.entities {
+
+        abstract class Busride [[Busride.html]] {
+            -rideID: String
+            -origin: String
+            -destination: String
+            -departure: DateTime
+            -arrival: DateTime
+            -vehicle: Bus
+            -driver: Person
+            -passengers: Set<Person>
+            +Busride(String, String, String, DateTime, DateTime)
+            +Busride(Busride)
+            -ensureNonNullNonEmpty(String): String
+            +setRide(String): void
+            +setDestination(String): void
+            +setOrigin(String): void
+            +setDeparture(DateTime): void
+            +setArrival(DateTime): void
+            +setVehicle(Bus): Busride
+            +setDriver(Person): void
+            +add(Person): boolean
+            +getRideID(): String
+            +getArrival(): DateTime
+            +getOrigin(): String
+            +compareTo(Busride): int
+        }
+
+        class StandardRide [[StandardRide.html]] {
+            -isOvernight: boolean
+            +StandardRide(String, String, String, DateTime, DateTime, boolean)
+            +StandardRide(StandardRide)
+        }
+
+        class Charter [[Charter.html]] {
+            -includedMileage: double
+            +Charter(String, String, String, DateTime, DateTime)
+            +getIncludedMileage(): double
+            +setIncludedMileage(double): void
+        }
+
+        java.lang.Comparable <|.. Busride
+        Busride <|-- StandardRide
+        Busride <|-- Charter
+    }
+
+    namespace java.lang {
+        interface Comparable<T> {
+            {abstract} +compareTo(T): int
+        }
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

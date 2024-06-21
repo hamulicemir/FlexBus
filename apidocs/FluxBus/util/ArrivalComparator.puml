@@ -1,0 +1,17 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>ArrivalComparator\n<size:10>FluxBus.util" as FluxBus.util.ArrivalComparator [[ArrivalComparator.html]] {
+        +compare(Busride, Busride): int
+    }
+
+    interface "<size:14>Comparator\n<size:10>java.util" as java.util.Comparator<Busride> {
+        {abstract} +compare(Busride, Busride): int
+    }
+
+    java.util.Comparator <|.. FluxBus.util.ArrivalComparator
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

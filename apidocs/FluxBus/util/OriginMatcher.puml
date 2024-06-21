@@ -1,0 +1,19 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>OriginMatcher\n<size:10>FluxBus.util" as FluxBus.util.OriginMatcher [[OriginMatcher.html]] {
+        -origin: String
+        +OriginMatcher(String)
+        +match(Busride): boolean
+    }
+
+    interface "<size:14>Matcher\n<size:10>FluxBus.provided" as FluxBus.provided.Matcher<Busride> [[../provided/Matcher.html]] {
+        {abstract} +match(Busride): boolean
+    }
+
+    FluxBus.provided.Matcher <|.. FluxBus.util.OriginMatcher
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

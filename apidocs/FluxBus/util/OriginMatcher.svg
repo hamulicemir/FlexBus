@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="257px" preserveAspectRatio="none" style="width:204px;height:257px;" version="1.1" viewBox="0 0 204 257" width="204px" zoomAndPan="magnify"><defs><filter height="300%" id="fmqxglcbakmb3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[14948e83d8f18162a2f20d07d714126a]
+class FluxBus.util.OriginMatcher--><a href="OriginMatcher.html" target="_top" title="OriginMatcher.html" xlink:actuate="onRequest" xlink:href="OriginMatcher.html" xlink:show="new" xlink:title="OriginMatcher.html" xlink:type="simple"><rect codeLine="5" fill="#FEFECE" filter="url(#fmqxglcbakmb3)" height="92.3516" id="FluxBus.util.OriginMatcher" style="stroke: #A80036; stroke-width: 1.5;" width="166" x="16" y="129"/><ellipse cx="48.1" cy="147.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M51.0688,153.6094 Q50.4906,153.9063 49.85,154.0469 Q49.2094,154.2031 48.5063,154.2031 Q46.0063,154.2031 44.6781,152.5625 Q43.3656,150.9063 43.3656,147.7813 Q43.3656,144.6563 44.6781,143 Q46.0063,141.3438 48.5063,141.3438 Q49.2094,141.3438 49.85,141.5 Q50.5063,141.6563 51.0688,141.9531 L51.0688,144.6719 Q50.4438,144.0938 49.85,143.8281 Q49.2563,143.5469 48.6313,143.5469 Q47.2875,143.5469 46.6,144.625 Q45.9125,145.6875 45.9125,147.7813 Q45.9125,149.875 46.6,150.9531 Q47.2875,152.0156 48.6313,152.0156 Q49.2563,152.0156 49.85,151.75 Q50.4438,151.4688 51.0688,150.8906 L51.0688,153.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="96" x="65.9" y="146.9951">OriginMatcher</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="55" x="86.4" y="159.5791">FluxBus.util</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="17" x2="181" y1="166.9375" y2="166.9375"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="24" y="174.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="36" y="181.1479">origin: String</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="17" x2="181" y1="187.7422" y2="187.7422"/><ellipse cx="27" cy="198.7422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="121" x="36" y="201.9526">OriginMatcher(String)</text><ellipse cx="27" cy="211.5469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="140" x="36" y="214.7573">match(Busride): boolean</text></a><!--MD5=[b505bf8d69b14eb33028c99a84c75100]
+class FluxBus.provided.Matcher--><a href="../provided/Matcher.html" target="_top" title="../provided/Matcher.html" xlink:actuate="onRequest" xlink:href="../provided/Matcher.html" xlink:show="new" xlink:title="../provided/Matcher.html" xlink:type="simple"><rect codeLine="11" fill="#FEFECE" filter="url(#fmqxglcbakmb3)" height="58.7422" id="FluxBus.provided.Matcher" style="stroke: #A80036; stroke-width: 1.5;" width="167" x="15.5" y="10"/><ellipse cx="30.5" cy="28.9688" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M26.4219,24.7344 L26.4219,22.5781 L33.8125,22.5781 L33.8125,24.7344 L31.3438,24.7344 L31.3438,32.8125 L33.8125,32.8125 L33.8125,34.9688 L26.4219,34.9688 L26.4219,32.8125 L28.8906,32.8125 L28.8906,24.7344 L26.4219,24.7344 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="56" x="59" y="27.9951">Matcher</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="85" x="44.5" y="40.5791">FluxBus.provided</text><rect fill="#FFFFFF" height="15.9688" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="48" x="137.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="46" x="138.5" y="19.1387">Busride</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="16.5" x2="181.5" y1="47.9375" y2="47.9375"/><ellipse cx="26.5" cy="58.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="139" x="35.5" y="62.1479">match(Busride): boolean</text></a><!--MD5=[3d3b90e77b51fec745a02a9c0207f0cc]
+reverse link FluxBus.provided.Matcher to FluxBus.util.OriginMatcher--><path codeLine="15" d="M99,89.53 C99,102.4 99,116.21 99,128.86 " fill="none" id="FluxBus.provided.Matcher-backto-FluxBus.util.OriginMatcher" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="92,89.14,99,69.14,106,89.14,92,89.14" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="192" x="0" y="243.6338">UMLDoclet 2.0.12, PlantUML 1.2020.16</text><!--MD5=[5dcd77f9aa0145d0c040cbd5699fb236]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>OriginMatcher\n<size:10>FluxBus.util" as FluxBus.util.OriginMatcher [[OriginMatcher.html]] {
+        -origin: String
+        +OriginMatcher(String)
+        +match(Busride): boolean
+    }
+
+    interface "<size:14>Matcher\n<size:10>FluxBus.provided" as FluxBus.provided.Matcher<Busride> [[../provided/Matcher.html]] {
+        {abstract} +match(Busride): boolean
+    }
+
+    FluxBus.provided.Matcher <|.. FluxBus.util.OriginMatcher
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>

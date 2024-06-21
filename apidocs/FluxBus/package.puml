@@ -1,0 +1,11 @@
+@startuml
+    namespace FluxBus {
+
+        class Main [[Main.html]] {
+            {static} +main(String[]): void
+        }
+
+    }
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>StandardRide\n<size:10>FluxBus.entities" as FluxBus.entities.StandardRide [[StandardRide.html]] {
+        -isOvernight: boolean
+        +StandardRide(String, String, String, DateTime, DateTime, boolean)
+        +StandardRide(StandardRide)
+    }
+
+    abstract class "<size:14>Busride\n<size:10>FluxBus.entities" as FluxBus.entities.Busride [[Busride.html]]
+
+    FluxBus.entities.Busride <|-- FluxBus.entities.StandardRide
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml

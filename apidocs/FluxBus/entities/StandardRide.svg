@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="233px" preserveAspectRatio="none" style="width:431px;height:233px;" version="1.1" viewBox="0 0 431 233" width="431px" zoomAndPan="magnify"><defs><filter height="300%" id="f1x0tlwr1u1mr4" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[aa1710a082975f3df23211202f2a20d7]
+class FluxBus.entities.StandardRide--><a href="StandardRide.html" target="_top" title="StandardRide.html" xlink:actuate="onRequest" xlink:href="StandardRide.html" xlink:show="new" xlink:title="StandardRide.html" xlink:type="simple"><rect codeLine="5" fill="#FEFECE" filter="url(#f1x0tlwr1u1mr4)" height="92.3516" id="FluxBus.entities.StandardRide" style="stroke: #A80036; stroke-width: 1.5;" width="405" x="7" y="105"/><ellipse cx="158.75" cy="123.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M161.7188,129.6094 Q161.1406,129.9063 160.5,130.0469 Q159.8594,130.2031 159.1563,130.2031 Q156.6563,130.2031 155.3281,128.5625 Q154.0156,126.9063 154.0156,123.7813 Q154.0156,120.6563 155.3281,119 Q156.6563,117.3438 159.1563,117.3438 Q159.8594,117.3438 160.5,117.5 Q161.1563,117.6563 161.7188,117.9531 L161.7188,120.6719 Q161.0938,120.0938 160.5,119.8281 Q159.9063,119.5469 159.2813,119.5469 Q157.9375,119.5469 157.25,120.625 Q156.5625,121.6875 156.5625,123.7813 Q156.5625,125.875 157.25,126.9531 Q157.9375,128.0156 159.2813,128.0156 Q159.9063,128.0156 160.5,127.75 Q161.0938,127.4688 161.7188,126.8906 L161.7188,129.6094 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="179.25" y="122.9951">StandardRide</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="76" x="187.75" y="135.5791">FluxBus.entities</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="411" y1="142.9375" y2="142.9375"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="15" y="150.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="118" x="27" y="157.1479">isOvernight: boolean</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="411" y1="163.7422" y2="163.7422"/><ellipse cx="18" cy="174.7422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="379" x="27" y="177.9526">StandardRide(String, String, String, DateTime, DateTime, boolean)</text><ellipse cx="18" cy="187.5469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="160" x="27" y="190.7573">StandardRide(StandardRide)</text></a><!--MD5=[15848a6d73be7ef01dce418ca4cefadb]
+class FluxBus.entities.Busride--><a href="Busride.html" target="_top" title="Busride.html" xlink:actuate="onRequest" xlink:href="Busride.html" xlink:show="new" xlink:title="Busride.html" xlink:type="simple"><rect codeLine="11" fill="#FEFECE" filter="url(#f1x0tlwr1u1mr4)" height="37.9375" id="FluxBus.entities.Busride" style="stroke: #A80036; stroke-width: 1.5;" width="111" x="154" y="7"/><ellipse cx="169" cy="25.9688" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M169.1094,21.3125 L167.9531,26.3906 L170.2813,26.3906 L169.1094,21.3125 Z M167.625,19.0781 L170.6094,19.0781 L173.9688,31.4688 L171.5156,31.4688 L170.75,28.4063 L167.4688,28.4063 L166.7188,31.4688 L164.2813,31.4688 L167.625,19.0781 Z "/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="196.5" y="24.9951">Busride</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="183" y="37.5791">FluxBus.entities</text></a><!--MD5=[095775ce187a803c2a3bb2c110a05147]
+reverse link FluxBus.entities.Busride to FluxBus.entities.StandardRide--><path codeLine="13" d="M209.5,65.51 C209.5,78.01 209.5,91.99 209.5,104.93 " fill="none" id="FluxBus.entities.Busride-backto-FluxBus.entities.StandardRide" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="202.5,65.15,209.5,45.15,216.5,65.15,202.5,65.15" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="192" x="110.5" y="219.6338">UMLDoclet 2.0.12, PlantUML 1.2020.16</text><!--MD5=[371b8d3b2d8d13c76538ba5b3313c963]
+@startuml
+    set namespaceSeparator none
+    hide empty fields
+    hide empty methods
+
+    class "<size:14>StandardRide\n<size:10>FluxBus.entities" as FluxBus.entities.StandardRide [[StandardRide.html]] {
+        -isOvernight: boolean
+        +StandardRide(String, String, String, DateTime, DateTime, boolean)
+        +StandardRide(StandardRide)
+    }
+
+    abstract class "<size:14>Busride\n<size:10>FluxBus.entities" as FluxBus.entities.Busride [[Busride.html]]
+
+    FluxBus.entities.Busride <|- - FluxBus.entities.StandardRide
+
+    center footer UMLDoclet 2.0.12, PlantUML 1.2020.16
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 22:20:43 CEST 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>
