@@ -1,6 +1,7 @@
 package FluxBus.app;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
@@ -16,7 +17,38 @@ import FluxBus.util.*;
  * @author TeM
  */
 public class Main {
-    
+    public static void main(String[] args) {
+        List<Busride> busrides = init();
+        print(busrides);
+        print(filter(busrides, new OriginMatcher("Vienna")));
+        System.out.println("Exporting busrides ... " + export(busrides, "/Users/emirhamulic/Developer/SS24/OOP/FluxBus_Java/src/FluxBus/busrides.txt"));
+        System.out.println("Exporting filtered busrides ... " + export(filter(busrides, new OriginMatcher("Vienna")), "/Users/emirhamulic/Developer/SS24/OOP/FluxBus_Java/src/FluxBus/busridesfiltered.txt"));
+
+    }
+
+    public static <T> List<T> filter(Collection<T> list, Matcher<T> matcher){
+        List<T> filteredlist = new LinkedList<>();
+        for(T element : list){
+            if(matcher.match(element))
+                filteredlist.add(element);
+        }
+        return filteredlist;
+    }
+
+    public static int export(List<Busride> rides, String filename){
+        int exportedRides = 0;
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(filename))){
+            for(Busride ride : rides){
+                bw.write(ride.toString());
+                bw.newLine();
+                exportedRides++;
+            }
+        }
+        catch (Exception e){
+            System.err.println(e);
+        }
+        return exportedRides;
+    }
 
     /**
      * Prints all bus rides.

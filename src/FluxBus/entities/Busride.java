@@ -1,6 +1,7 @@
 package FluxBus.entities;
 
 import java.util.Date;
+import java.util.HashSet;
 import java.util.Set;
 
 import FluxBus.provided.*;
@@ -23,7 +24,7 @@ public abstract class Busride implements Comparable<Busride>{
     private String destination;
     private Person driver;
     private String origin;
-    private Set<Person> passengers;
+    private Set<Person> passengers = new HashSet<>();
     private String rideID;
     private Bus vehicle;
 

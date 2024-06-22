@@ -1,0 +1,5 @@
+StandardRide{isOvernight=false}
+Charter{includedMileage=0.0}
+Charter{includedMileage=0.0}
+StandardRide{isOvernight=true}
+StandardRide{isOvernight=true}
